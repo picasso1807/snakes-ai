@@ -1,0 +1,20 @@
+.game-canvas {
+    width: 90vw;
+    border: solid 1px #444343;
+    display: block;
+    margin: auto;
+    position: absolute; z-index: 2;
+}
+.game-grid-canvas {
+    width: 90vw;
+    border: solid 1px #444343;
+    display: block;
+    margin: auto;
+    position: absolute; z-index: 1;
+}
+
+.viewport-container {
+   display: grid;
+  place-items: center; /* This centers the child in both directions */
+  min-height: 100vh;    /* Ensures the container fills the view */
+}
