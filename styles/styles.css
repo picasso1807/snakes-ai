@@ -1,16 +1,33 @@
 .game-canvas {
-    width: 90vw;
+    width: 75vw;
     border: solid 1px #444343;
     display: block;
     margin: auto;
     position: absolute; z-index: 2;
 }
 .game-grid-canvas {
-    width: 90vw;
+    width: 75vw;
     border: solid 1px #444343;
     display: block;
     margin: auto;
     position: absolute; z-index: 1;
+}
+
+.buttons-container {
+    position: absolute;
+    bottom: 20px;
+    z-index: 3;
+}
+
+.game-button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green */
+    color: white;
 }
 
 .viewport-container {

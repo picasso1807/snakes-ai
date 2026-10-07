@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snakes</title>
     <link rel="stylesheet" href="styles/styles.css">
-    <script src="scripts/canvas.js" ></script>
+    <script src="scripts/constants.js"></script>
+    <script src="scripts/canvas-helper.js"></script>
+    <script src="scripts/snake.js"></script>
+    <script src="scripts/handlers.js" ></script>
 </head>
 <body>
     <div class="viewport-container" id="game-container">
         <canvas id="gameCanvas" class="game-canvas"></canvas>
         <canvas id="gameGrid" class="game-grid-canvas"></canvas>
+        <div class="buttons-container">
+            <button id="startButton" type="button" class="game-button">Start</button>
+            <button id="pauseButton" type="button" class="game-button">Pause/Resume</button>
+        </div>
     </div>
 </body>
 </html>
